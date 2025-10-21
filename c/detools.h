@@ -35,6 +35,9 @@
  * Define any of the defines below to 0 to disable given feature.
  */
 
+#define DETOOLS_CONFIG_COMPRESSION_LZMA 0
+#define DETOOLS_CONFIG_COMPRESSION_HEATSHRINK 1
+
 #ifndef DETOOLS_CONFIG_FILE_IO
 #    define DETOOLS_CONFIG_FILE_IO                 1
 #endif
