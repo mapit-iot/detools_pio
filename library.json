@@ -1,0 +1,15 @@
+{
+    "name": "detools",
+    "version": "1.0.0",
+    "build": {
+      "srcFilter": [
+        "+<c/detools.c>",
+        "+<c/heatshrink/heatshrink_decoder.c>"
+      ],
+      "flags": [
+        "-Ilib/detools/c",
+        "-Ilib/detools/c/heatshrink"
+      ]
+    }
+}
+  
